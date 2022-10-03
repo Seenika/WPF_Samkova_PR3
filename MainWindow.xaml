@@ -8,10 +8,10 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="100"/>
-            <ColumnDefinition Width="100"/>
-            <ColumnDefinition Width="100"/>
-            <ColumnDefinition Width="100"/>
+            <ColumnDefinition Width="150"/>
+            <ColumnDefinition Width="150"/>
+            <ColumnDefinition Width="150"/>
+            <ColumnDefinition Width="150"/>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
             <RowDefinition Height="50"/>
@@ -20,7 +20,16 @@
             <RowDefinition Height="200"/>
             <RowDefinition Height="50"/>
         </Grid.RowDefinitions>
-        
-        
+
+        <Label Content="Введите х" Grid.Row="0" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="16"/>
+        <TextBox x:Name="X" Grid.Row="0" Grid.Column="1" Margin="5"/>
+        <Label Content="Введите y" Grid.Row="1" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="16"/>
+        <TextBox x:Name="Y" Grid.Row="1" Grid.Column="1" Margin="5"/>
+        <Label Content="Введите z" Grid.Row="2" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="16"/>
+        <TextBox x:Name="Z" Grid.Row="2" Grid.Column="1" Margin="5"/>
+
+        <TextBox x:Name="Itog" Grid.Row="3" Grid.ColumnSpan="4" Margin="10"/>
+        <Button x:Name="Pusk" Grid.Row="4" Grid.Column="1" Content="ПУСК"/>
+        <Button x:Name="Clik" Grid.Row="4" Grid.Column="3" Content="Очистить"/>
     </Grid>
 </Window>
