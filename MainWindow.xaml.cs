@@ -24,5 +24,21 @@ namespace WPF_Samkova_PR3
         {
             InitializeComponent();
         }
+
+        private void Pusk_Click(object sender, RoutedEventArgs e)
+        {
+            //Получение исходных данных из TextBox
+            double x = Convert.ToDouble(X.Text);
+            double y = Convert.ToDouble(Y.Text);
+            double z = Convert.ToDouble(Z.Text);
+
+            //Ввод исходных данных в окно результатов
+            Itog.Text = "Результаты работы программы ст. Самовой К.С." + Environment.NewLine;
+            Itog.Text = "Вариант 14" + Environment.NewLine;
+            Itog.Text = "" + X.Text + Environment.NewLine;
+            Itog.Text = "" + Y.Text + Environment.NewLine;
+            Itog.Text = "" + Z.Text + Environment.NewLine;
+
+        }
     }
 }
