@@ -35,9 +35,9 @@ namespace WPF_Samkova_PR3
             //Ввод исходных данных в окно результатов
             Itog.Text = "Результаты работы программы ст. Самовой К.С." + Environment.NewLine;
             Itog.Text = "Вариант 14" + Environment.NewLine;
-            Itog.Text = "" + X.Text + Environment.NewLine;
-            Itog.Text = "" + Y.Text + Environment.NewLine;
-            Itog.Text = "" + Z.Text + Environment.NewLine;
+            Itog.Text = "При X" + X.Text + Environment.NewLine;
+            Itog.Text = "При Y" + Y.Text + Environment.NewLine;
+            Itog.Text = "При Z" + Z.Text + Environment.NewLine;
 
         }
     }
