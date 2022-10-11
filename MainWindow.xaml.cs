@@ -39,6 +39,11 @@ namespace WPF_Samkova_PR3
             Itog.Text = "При Y" + Y.Text + Environment.NewLine;
             Itog.Text = "При Z" + Z.Text + Environment.NewLine;
 
+            //Определение номера выбранной функции
+            int n = 7;
+            double u;
+
+            if ()
         }
     }
 }
